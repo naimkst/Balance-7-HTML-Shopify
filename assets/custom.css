@@ -3,56 +3,48 @@
   scroll-behavior: unset;
 }
 
-body {
+.b-section {
   font-family: "Poppins", sans-serif;
   color: #010924;
   font-size: 16px;
   overflow-x: hidden;
 }
-
-p {
+.b-section p {
   font-size: 16px;
   color: #010924;
   line-height: 1.8em;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.b-section h1,
+.b-section h2,
+.b-section h3,
+.b-section h4,
+.b-section h5,
+.b-section h6 {
   color: #010924;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
-ul {
+.b-section ul {
   padding-left: 0;
   margin: 0;
   list-style: none;
 }
-
-a {
+.b-section a {
   text-decoration: none;
 }
-
-a:hover {
+.b-section a:hover {
   text-decoration: none;
 }
-
-img {
-  max-width: 100%;
-}
-
-.h-hidden {
-  display: none;
-}
-
 @media (max-width: 1440px) {
-  .container {
+  .b-section .container {
     max-width: 1271px;
   }
+}
+.b-section img {
+  max-width: 100%;
+}
+.b-section .h-hidden {
+  display: none;
 }
 
 .section-padding {
@@ -1301,4 +1293,10 @@ img {
 }
 .taste-area .taste-img .compare-wrap .compare-color ul li:nth-child(5) {
   background-color: #148742;
+}
+
+.footer__block .form-control {
+  padding: 0;
+  background: none;
+  border: 0;
 }/*# sourceMappingURL=custom.css.map */

@@ -28,61 +28,64 @@ $heading-font: "Poppins", sans-serif;
     scroll-behavior: unset;
 }
 
-body {
+.b-section {
     font-family: $base-font;
     color: $body-color;
     font-size: 16px;
     overflow-x: hidden;
-}
 
-p {
-    font-size: 16px;
-    color: $body-color;
-    line-height: 1.8em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: $heading-color;
-    font-family: $heading-font;
-    font-weight: 600;
-}
-
-ul {
-    padding-left: 0;
-    margin: 0;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-.h-hidden {
-    display: none;
-}
-
-.container {
-    @media(max-width:1440px) {
-        max-width: 1271px;
+    p {
+        font-size: 16px;
+        color: $body-color;
+        line-height: 1.8em;
     }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $heading-color;
+        font-family: $heading-font;
+        font-weight: 600;
+    }
+
+    ul {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .container {
+        @media(max-width:1440px) {
+            max-width: 1271px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .h-hidden {
+        display: none;
+    }
+
+
 }
 
 .section-padding {
     padding: 70px 0;
 }
+
 
 .theme-btn,
 .theme-btn-s2 {
@@ -1501,5 +1504,13 @@ img {
                 }
             }
         }
+    }
+}
+
+.footer__block {
+    .form-control {
+        padding: 0;
+        background: none;
+        border: 0;
     }
 }
