@@ -1514,3 +1514,63 @@ $heading-font: "Poppins", sans-serif;
         border: 0;
     }
 }
+
+.testimonial-area.style-3 {
+    .testimonial-wrap {
+        .testimonial-img {
+            .testimonial-text {
+                left: auto;
+                right: 0;
+                padding-left: 0;
+                padding-right: 30px;
+
+                @media(max-width:991px) {
+                    padding: 30px 15px;
+                }
+            }
+        }
+    }
+}
+
+// behind-area style-3
+
+.behind-area.style-3 {
+    background: $section-bg-color;
+
+    .behind-item {
+        .behind-text {
+            margin-top: 20px;
+
+            h2 {
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+// balance-area style-3
+
+.balance-area.style-3 {
+    .balance-wrap {
+        .balance-text {
+
+            p {
+                margin-bottom: 30px;
+            }
+
+            h3 {
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
