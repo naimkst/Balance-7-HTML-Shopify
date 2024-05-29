@@ -85,6 +85,30 @@
     }
 
 
+    /*------------------------------------------
+        = testimonial-active
+    -------------------------------------------*/
+    if ($(".testimonial-active").length) {
+        $(".testimonial-active").owlCarousel({
+            autoplay: true,
+            smartSpeed: 300,
+            margin: 0,
+            loop: true,
+            autoplayHoverPause: true,
+            dots: true,
+            items: 1,
+            nav: false,
+            onInitialized: addNumberedDots
+        });
+        function addNumberedDots(event) {
+            var dots = $(event.target).find('.owl-dot');
+            dots.each(function(index) {
+                $(this).find('span').text(index + 1);
+            });
+        }
+    }
+
+
 
 
     $(document).ready(function () {
@@ -124,6 +148,7 @@
         }
         $button.parent().find("input").val(newVal);
     });
+
 
 
     /*==========================================================================
