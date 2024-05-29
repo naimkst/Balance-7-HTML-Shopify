@@ -1344,10 +1344,17 @@
 	latest css add 29-05-2024
 ----------------------------*/
 .hero-area.style-3 {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+@media (max-width: 575px) {
+  .hero-area.style-3 {
+    padding-top: 30px;
+  }
 }
 .hero-area.style-3 .hero-text {
   padding-left: 0;
+  padding-top: 0;
 }
 .hero-area.style-3 .hero-text h1 {
   margin-bottom: 0;
